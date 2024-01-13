@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat:wght@700&display=swap');
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+p {
+  font-family: 'Inter', sans-serif;
+  color: white;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  outline-color: transparent;
+  text-align: center;
+  line-height: 2;
+  color: white;
+  }
+  
+a:link,
+a:visited,
+a:focus {
+  background: black;
+  color: white;
+}
+  
+a:hover {
+  background: white;
+  color: black
+}
+
+a:active {
+  background: black;
+  color: white;
+}
+
+.flexbox-temporary-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexbox-temporary-content > div {
+  text-align: center;
+}
+
+.svg-responsive {
+  width: 100%;
+}
